@@ -1,0 +1,17 @@
+:root{--bg:#071127;--card:#0f2038;--accent:#0B8A3E;--muted:#9fb3d9}
+*{box-sizing:border-box;font-family:Inter, "Tajawal",sans-serif}
+html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#020617);color:#eef6ff}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:12px}
+.brand{display:flex;gap:12px;align-items:center}
+.logo{font-size:22px}
+.title{font-weight:800}
+.controls{display:flex;gap:8px;align-items:center}
+.controls input{padding:8px;border-radius:8px;border:none;width:180px}
+.panel{max-width:980px;margin:12px auto;padding:12px}
+.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}
+.card{background:rgba(255,255,255,0.03);padding:12px;border-radius:10px}
+.card h4{margin:0 0 6px}
+.card .meta{font-size:13px;color:var(--muted)}
+.btn{background:var(--accent);border:none;padding:8px 10px;border-radius:8px;color:#fff;cursor:pointer}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06)}
+.card .actions{display:flex;gap:8px;margin-top:8px;align-items:center}
