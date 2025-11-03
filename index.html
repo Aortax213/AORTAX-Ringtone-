@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AORTAX Ringtones</title>
+  <meta name="theme-color" content="#0B8A3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">🔔</div>
+      <div>
+        <div class="title">AORTAX Ringtones</div>
+        <div class="subtitle">رنّات احترافية – مجاني</div>
+      </div>
+    </div>
+    <div class="controls">
+      <input id="searchInput" placeholder="ابحث عن رنّة..." />
+      <button id="themeBtn" class="btn ghost">وضع</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <div id="list" class="list"></div>
+    </section>
+  </main>
+
+  <audio id="player" controls style="width:100%;display:none"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
